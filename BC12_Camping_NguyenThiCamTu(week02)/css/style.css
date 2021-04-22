@@ -1,0 +1,221 @@
+/* GLOBAL  xoa tat ca cac bo cuc co dinh cua trinh duyet*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;  /* chi dung chung padding , giup dung de gu the cua padding */
+}
+.clear{
+    clear:both; 
+}
+/* ///////Header  */
+.header ul{
+    /* xoa danh sach  */
+    list-style: none;
+}
+.header a{
+    /* Xoa dau gach duoi cua the a  */
+    text-decoration: none;
+    color: black;
+}
+.header{
+    background-color: #F8E1DB;
+    padding: 10px 60px;
+
+}
+/* Doi the li tu block sang inline de the thanh 1 hang voi 1 class cha con  */
+.header li{
+    display: inline;
+    margin-right:30px;
+    font-size: 18px;
+}
+/* them khoang cach: margin va padding ex:  margin:20px // ca 4 ben
+                                            margin 10px 20px//top, bottom --right, left
+                                            margin: 10 15 20; t r,l b
+                                            margin: 10 15 20 25 t r b l */
+.header .active a{
+    color: #E76F51;
+
+}
+/* Carousel */
+.carousel{
+    background-image: url(../img/BG.png);
+    height: 500px;
+    background-size: cover;
+    background-position:center;
+    border-radius: 0 0 22% 22%;
+    position: relative;
+    /* Canh padding theo top xuong */
+}
+.carousel__content{
+    /* xet position thì mới xài được top, right, bottom, left*/
+    position:absolute;
+    bottom:-20% ;
+    left: 0;
+}
+.carousel__txt{
+    background-color: white;
+    text-align: center;
+    padding: 25px 30px;
+    border-radius: 20px;
+}
+/* float:cho canh chinh thanh 1 hang cua nhiu class cha con 
+  float phai di chung voi width*/
+.carousel__item{
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+    /* (width=content+padding+border) */
+    
+}
+.carousel__txt img{
+    height: 82px;
+}
+/* /////////////////////Activities   */
+.activities__item{
+    float:left;
+    /* float thường gây ảnh hưởng về giao diện  */
+    width:25%;
+    padding: 15px;
+}
+.activities__text{
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    float:left;
+    width:100%;
+}
+.activities__title{
+    color: grey;
+    text-align: center;
+    margin-top: 8%;
+}
+.activities{
+    padding: 20px;
+    background-color: #FAF4F2;
+}
+.activities__text img{
+    width:100%;
+    height: 100%;
+    padding:2%;
+    border-radius: 30px;
+}
+.activities__top{
+    position: relative;
+}
+.activities__top a{
+    position: absolute;
+    top: 20px;
+    right:20px;
+    /* check khung icon hinh vuong  */
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.774);
+    /* Doi màu icon  */
+    color:#E76F51;
+    /* Chỉnh kích thước icon  */
+    font-size: 20px;
+    /* Canh icon heart vao giua , canh theo chiều ngang:     text-align: center; */
+    /* Canh theo chiều dọc. Neu chi có 1  dòng thì   */
+    line-height: 40px; /* Thong so xet theo chieu cao  */
+    border-radius: 12px;
+    /* Cach lam cho trong suot  0 thì biến mất luôn, 1 là bth. Chi dùng khi trong sout the va noi dung cua the*/
+    /* opacity: 0.7; */
+}
+.activities__bottom button{
+    margin-top: 20px;
+    color: grey;
+    border-radius: 35px;
+    border: none;
+    padding: 8px 55px;
+    font-size: 17px;
+}
+.activities p{
+    color: grey;
+    font-size: 14px;
+}
+.activities__bottom h3{
+    padding: 15px 20px;
+}
+.activities__viewall button{
+
+    color: #E76F51;
+    border-radius: 35px;
+    border-color: #E76F51;
+    padding: 8px 55px;
+    margin: 0 45%;
+    font-size: 15px;
+}
+/*              CONTACT */
+.contact{
+    background-color: #F8E1DB;
+    margin-bottom: 100px;
+    border-radius: 30px;
+}
+.contact__image, .contact__text {
+    float: left;
+    width: 50%;
+    padding: 20px 60px;
+}
+.contact__image{
+    background-image: url(../img/mask.png);
+    background-size: cover;
+    background-position: center;
+}
+.contact__text{
+    padding-top: 70px;
+    color: grey;
+}
+.contact__text p{
+    margin: 10px 0 30px;
+}
+.contact__text h4{
+    margin-bottom: 20px;
+}
+.contact__download,.contact__us{
+    float: left;
+    width: 50%;
+}
+.contact__us i{
+    color:#E76F51;
+    font-size: 25px;
+    margin-right: 10px;
+}
+/*                                          Footer */
+.footer{
+    background-color: #F8E1DB;
+    border-radius: 130px 130px 0 0;
+    padding: 120px 40px;
+    color: rgb(54, 51, 51);
+}
+.footer h4{
+    font-size: 18px;
+    margin-bottom: 21px;
+    color: black;
+}
+.footer__about{
+    float: left;
+    width: 40%;
+    line-height: 28px;
+    padding: 0 98px;
+}
+.footer__list{
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}
+.footer__nav{
+    float: left;
+    width: 30%;
+}
+.footer__nav li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.footer__nav a{
+    text-decoration: none;
+}
+.footer__copyright{
+    text-align: center;
+    padding-top: 50px;
+}
