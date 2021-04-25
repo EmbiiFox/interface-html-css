@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear:both; 
+}
+.header{
+    background-color: darkblue;
+}
+i{
+    color:rgb(241, 183, 74);
+    font-size: 20px;
+}
+.header__top{
+    color:white;
+    margin: 0 10%;
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__top button{
+    background-color: darkgoldenrod;
+    color: black;
+    padding: 10px;
+}
+.header__bottom{
+    background-color: white;
+    color: black;
+}
+.header__bottom nav{
+    margin: 0 10%;
+}
+.header ul{
+    list-style: none;
+    padding: 20px;
+}
+.header li{
+    display: inline;
+    margin-right:30px;
+    font-size: 18px;
+}
+.header a{
+    text-decoration: none;
+}
+.header__bottom .active a{
+    color: rgb(240, 165, 95);
+}
+/* CAROUSEL  */
+.carousel{
+    background-image: url(./images/2.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position:top;
+    padding: 20px;
+    position: relative;
+}
+.carousel__content{
+    position:absolute;
+    bottom:-15% ;
+    left: 0;
+}
+.carousel__item{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+.carousel__txt{
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    /* float: left; */
+    width: 100%;
+}
+.carousel__txt button{
+    background-color: rgb(241, 183, 74);
+    margin-top: 20px;
+    color:black;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+}
