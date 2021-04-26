@@ -81,7 +81,7 @@ i{
 
 }
 .carousel__item{
-    width: 22%;
+    width: 23.5%;
     margin: 10px;
     box-shadow: 0px 5px 15px rgba(128, 128, 128, 0.2);
     border-radius: 10px;
@@ -101,6 +101,9 @@ i{
     border: none;
     padding: 8px 15px;
     font-size: 14px;
+}
+.carousel__txt h3, .carousel__txt p{
+    margin-top: 10px;
 }
 /* About top  */
 .about{
@@ -143,4 +146,35 @@ i{
 .about__contentText p{
     text-align: center;
     margin-top: 10px;
+}
+/* SERVICE */
+.services{
+    background-color: rgba(128, 128, 128, 0.1);
+    padding: 0px 12%;
+    color:black;
+}
+.services__rate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services__features{
+    width: 25%;
+    margin: 10px;
+}
+.services__top table{
+    height: 50px;
+    width: 200px;
+    text-align: left;
+
+}
+td{
+    padding-left:10px ;
+    font-size: 15px;
+    color: black;
+}
+.td1{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 10px;
 }
