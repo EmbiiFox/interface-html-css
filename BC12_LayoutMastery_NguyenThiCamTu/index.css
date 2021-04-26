@@ -226,3 +226,49 @@ td{
     position: relative;
     margin-left: 42%;
 }
+.contact{
+    background-color: darkblue;
+    color: white;
+    padding: 120px 40px;
+    font-size: 18px;
+}
+.contact h4{
+    font-size: 22px;
+    margin-bottom: 21px;
+}
+
+.contact__list{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-left: 150px;
+}
+.contact__nav{
+    float: left;
+    width: 30%;
+}
+.contact__icon{
+    color: white;
+}
+.contact__nav li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.contact__nav a{
+    text-decoration: none;
+}
+.contact__copyright{
+    border:1px solid grey;
+}
+.contact__copyright .ct1{
+    padding-top: 50px;
+    margin-left: 150px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+.contact__copyright .ct2{
+    padding-top: 50px;
+    float: right;
+
+}
