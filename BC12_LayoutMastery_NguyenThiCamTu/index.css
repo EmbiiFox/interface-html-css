@@ -150,10 +150,10 @@ i{
 /* SERVICE */
 .services{
     background-color: rgba(128, 128, 128, 0.1);
-    padding: 0px 12%;
     color:black;
 }
 .services__rate{
+    padding: 0px 12%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,4 +177,52 @@ td{
     font-size: 30px;
     font-weight: bolder;
     padding-left: 10px;
+}
+.services__reading{
+    background-image: url(./images/3.jpg);
+    height: 420px;
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+}
+.services__essay{
+    background-color: rgba(3, 3, 168, 0.5);
+    height: 100%;
+    width: 100%;
+}
+.services__content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 130px 130px 0;
+}
+.services__readLeft , .services__readRight{
+    width: 40%;
+    height: 100%;
+    color: white;
+}
+.services__readLeft h3{
+    font-size: 30px;
+}
+.services__readRight img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50%;
+    border:2px solid white;
+}
+.services__readRight h4{
+    color: rgb(172, 119, 7);
+    font-size: 20px;
+    text-align: center;
+}
+.services__readLeft p{
+    margin-top: 10px;
+}
+.student {
+    text-align: center;
+}
+.services__readRight img{
+    position: relative;
+    margin-left: 42%;
 }
