@@ -11,7 +11,7 @@
 }
 i{
     color:rgb(241, 183, 74);
-    font-size: 20px;
+   
 }
 .header__top{
     color:white;
@@ -30,12 +30,27 @@ i{
     background-color: white;
     color: black;
 }
+.header__bottom .logo{
+    
+    width: 20px;
+    height: 20px;
+    background-color: rgb(3, 3, 102);
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.header__bottom div{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+}
+
 .header__bottom nav{
     margin: 0 10%;
 }
 .header ul{
     list-style: none;
-    padding: 20px;
+    padding: 10px;
 }
 .header li{
     display: inline;
@@ -61,21 +76,24 @@ i{
     position:absolute;
     bottom:-15% ;
     left: 0;
+    display: flex;
+    justify-content: center;
+
 }
 .carousel__item{
-    float: left;
-    width: 33.33%;
-    padding: 15px;
+    width: 22%;
+    margin: 10px;
+    box-shadow: 0px 5px 15px rgba(128, 128, 128, 0.2);
+    border-radius: 10px;
 }
 .carousel__txt{
     background-color: white;
     text-align: center;
-    padding: 30px;
+    padding: 25px;
     border-radius: 10px;
-    /* float: left; */
     width: 100%;
 }
-.carousel__txt button{
+.carousel__txt button, .about__text button{
     background-color: rgb(241, 183, 74);
     margin-top: 20px;
     color:black;
@@ -83,4 +101,23 @@ i{
     border: none;
     padding: 8px 15px;
     font-size: 14px;
+}
+.about{
+    margin-top: 15%;
+    
+}
+.about__text , .about__img{
+    float: left;
+    width: 38%;
+    padding: 0 60px;
+
+}
+.about__text{
+    margin-left: 12%;
+}
+.about__img img{
+    margin-right: 12%;
+    height: 60%;
+    width: 100%;
+    size: cover;
 }
