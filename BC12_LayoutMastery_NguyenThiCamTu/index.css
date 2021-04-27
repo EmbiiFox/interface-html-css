@@ -93,14 +93,14 @@ i{
     border-radius: 10px;
     width: 100%;
 }
-.carousel__txt button, .about__text button{
+.carousel__txt button, .about__text button, .services__bottom button{
     background-color: rgb(241, 183, 74);
     margin-top: 20px;
     color:black;
     border-radius: 6px;
     border: none;
     padding: 8px 15px;
-    font-size: 14px;
+    font-size: 15px;
 }
 .carousel__txt h3, .carousel__txt p{
     margin-top: 10px;
@@ -115,15 +115,19 @@ i{
 .about__text , .about__img{
     float: left;
     width: 45%;
-    margin:20px;
+    margin-left:20px; 
+
 }
 .about__text p{
     margin-top: 15px;
 }
 .about__img img{
-    height: 380px;
-    width: 102%;
-    margin-left: 20px;
+    height: 500px;
+    width: 107%;
+    margin-left: 55px;
+}
+.about h2{
+    font-size: 45px;
 }
 /* About bottom  */
 .about__item{
@@ -131,6 +135,7 @@ i{
     width: 25%;
     padding: 20px ;
     padding-right: 0;
+    padding-bottom: 0;
 }
 .about__contentText{
     background-color: darkblue;
@@ -226,6 +231,82 @@ td{
     position: relative;
     margin-left: 42%;
 }
+.services__bottom{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+.services__leftBT,.services__rightBT {
+    float: left;
+    width: 600px;
+
+}
+.services___list{
+    background-color:rgba(255, 255, 255, 0.856);
+    width:100%;
+    height: 370px;
+}
+.list2{
+    background-color:white;
+    width:100%;
+    height: 170px;
+    margin-bottom: 20px;
+}
+.services__rightBT{
+    margin-left: 10%;
+}
+.services__contentBT{
+    margin-left: 15%;
+}
+.services__contentBT img{
+    height: 100px;
+    width: 100%;
+
+}
+.services__itemRight {
+    float: left;
+    width: 70%;
+    height: 120px;
+}
+.services__itemLeft{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.services__bottom h2{
+    margin: 20px;
+}
+.services__bottom h4{
+    margin: 10px;
+}
+.services__bottom button{
+    padding: 10px 20px;
+    float: right;
+}
+.services__cadenlarTop{
+    border-radius: 5px 5px 0 0;
+    background-color:  rgb(241, 183, 74);
+    width: 86px;
+}
+.services__cadenlarBottom{
+    background-color: black;
+    color: white;
+    width: 86px;
+    height: 30px;
+    border-radius: 0 0 5px 5px;
+    line-height: 30px;
+}
+.bt2{
+    width: 20%;
+}
+.services__config p{
+    float: left;
+    margin-right: 10px;
+}
+
 .contact{
     background-color: darkblue;
     color: white;
@@ -269,6 +350,6 @@ td{
 }
 .contact__copyright .ct2{
     padding-top: 50px;
+    margin-right: 10px;
     float: right;
-
 }
