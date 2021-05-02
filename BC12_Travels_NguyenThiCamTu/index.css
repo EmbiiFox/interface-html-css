@@ -1,0 +1,285 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear:both; 
+}
+/* ///////Header  */
+.container{
+    margin: 0 400px;
+    padding: 0 20px;
+}
+.banner{
+    background-image: url(./images-layout2/1.jpg);
+    background-size: cover;
+    padding: 0 0 70px;
+}
+.header{
+    background: white;
+    padding: 10px 0;
+}
+.header ul{
+    list-style: none;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+.header__left{
+    float: left;
+    width: 30%;
+}
+.header__logo{
+    margin-top: 27px ;
+}
+.header__logo h1{
+    margin: 0;
+}
+.header__logo h1 a{
+    color: #2f2f2f;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+.header__logo span{
+    color: #82b62d;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+.header__right{
+    float: right;
+    width: 67%;
+    margin: 25px 0 0;
+}
+.header__top{
+    text-align: right;
+}
+.header__top ul li{
+  margin: 10px;
+}
+.header__top li{
+    display:inline-block;
+	color:#999999;
+	font-size:16px;
+}
+.header__top li a{
+    color:#999999;
+}
+.header__top p{
+    display: block;
+    margin: 0 0 10px;
+}
+
+.header__nav{
+    margin-top: 10px;
+    float: left;
+    min-height: 0;
+}
+.header__nav ul{
+    float: right;
+}
+.header__nav ul li{
+    display: inline;
+    margin: 0 18px;
+    float: left;
+}
+.header__nav ul li a{
+    color: #2f2f2f;
+    font-size: 1em18px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.header__nav ul li a:hover{
+    color: #82b62d;
+}
+.header__nav ul li a.active{
+    color: #82b62d;
+}
+.header__linked{
+    float: right;
+    margin: 10px;
+}
+.header__linked ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.header__linked ul li a {
+	color: #333;
+    text-align: center;
+}
+/* Slider  */
+.slider{
+    margin: 170px 0;
+}
+.slider__content{
+    text-align: center;
+    color:white;
+}
+.slider__content h4{
+    font-size:  18px;
+    margin-bottom: 18px;
+    font-weight: 600;
+    letter-spacing: 7px;
+}
+.slider__content h2{
+    font-size: 80px;
+    font-weight: 900;
+}
+.slider__content p{
+    font-size: 16px;
+    margin: 18px auto 0;
+    line-height: 32px;
+    width: 43%;
+}
+button{
+    color: white;
+    font-size: 18px;
+    padding: 9px 36px;
+    background-color:  #82b62d;
+    text-align: center;
+    margin-top: 30px;
+    border: none;
+}
+/* welcome */
+.welcome{
+    padding:50px 0;
+}
+.welcome h2{
+    text-align: center;
+    margin: 50px 0 40px 0;
+    font-size:30px;
+    letter-spacing: 4px;
+}
+.welcome__text{
+    float: left;
+    width: 58%;
+    text-align: left;
+    color: gray;
+}
+.welcome__text h4{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.welcome__img{
+    float: left;
+    width: 42%;
+}
+.welcome__img img{
+    width: 100%;
+}
+.img1{
+    padding-left: 20px;
+}
+.img2{
+    padding-right: 20px;
+}
+/* Services */
+.services{
+    background-color: #f0f5f8;
+    color: gray;
+    text-align: center;
+}
+.services h2{
+    color: black;
+    padding: 50px 0;
+    font-size:30px;
+    letter-spacing: 4px;
+}
+.services__items{
+    float: left;
+    width: 33.33%;
+    padding:10px 30px 65px 20px;
+}
+.services__icon{
+    width: 70px;
+    height: 70px;
+    color: #82b62d;
+    line-height: 70px;
+    background-color: white;
+    padding: 1.2em 0 0 0;
+    margin: 0 auto;
+}
+.services__icon i{
+    font-size: 35px;
+}
+.services__info h4{
+    color: black;
+    font-size: 20px;
+    margin: 15px;
+}
+/* News */
+.news{
+    padding-bottom: 40px;
+}
+.news h2{
+    text-align: center;
+    padding: 50px 0;
+    font-size:30px;
+    letter-spacing: 4px;
+}
+.news__left{
+    float: left;
+    width: 42%;
+}
+.news__left img{
+    width: 100%;
+    padding-right: 70px;
+}
+.news__right{
+    float: left;
+    width: 58%;
+}
+.news__admin{
+    float: left;
+    width: 40%;
+}
+.news__time{
+    float: left;
+    width: 60%;
+}
+.news__bottom h3{
+    font-size: 40px;
+    margin: 35px 150px 5px 0;
+}
+/* JOIN THE CLB */
+.joinClub{
+    background-image: url(./images-layout2/5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px; 
+    color: white;
+}
+.joinClub h2{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding: 40px 0;
+}
+.joinClub__subcribe{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+.joinClub__form input{
+    display: inline;
+    background: white;
+    color: gray;
+    width: 50%;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.joinClub__form button i{
+    font-size: 20px;
+    line-height: 20px;
+    width: 21px;
+    height: 23px;
+    background: #82b62d;
+}
