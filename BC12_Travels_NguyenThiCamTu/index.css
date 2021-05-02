@@ -253,7 +253,7 @@ button{
     background-image: url(./images-layout2/5.jpg);
     background-size: cover;
     background-position: center;
-    height: 200px; 
+    height: 250px; 
     color: white;
 }
 .joinClub h2{
@@ -279,7 +279,73 @@ button{
 .joinClub__form button i{
     font-size: 20px;
     line-height: 20px;
-    width: 21px;
+    width: 20px;
     height: 23px;
     background: #82b62d;
+}
+/* Footer */
+.footer{
+    background: #f0f5f8;
+    color: #bbbbbb;
+}
+.footer__content h4{
+    color: #212121;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+.footer__content p{
+    font-size: 13px;
+    line-height: 20px;
+}
+.footer__history{
+    float: left;
+    width: 35%;
+}
+.footer__twitterPost{
+    float: left;
+    width: 29%;
+}
+.list{
+    float: left;
+    width: 18%;
+}
+.list__twitter li {
+    line-height: 20px;
+    margin-bottom: 10px;
+	font-size: 18px;
+}
+.list__twitter a {
+    color: #82b62d;
+}
+.list__twitter li span {
+    display: block;
+    margin-top: 10px;
+}
+.list__twitter i{
+	margin-right:10px;
+}
+.footer__content ul li{
+	display: block;
+    margin-bottom:5px;
+    color: gray;
+    font-size: 14px;
+} 
+.footer__content  ul li a {
+    color: #212121;
+    text-decoration: none;
+    margin-left: 5px;
+}
+/* copyright */
+.copyright{
+	padding: 25px 0;
+	background:black;
+	text-align:center;
+    color: white;
+}
+.copyright a{
+	color:#82b62d;
+
 }
